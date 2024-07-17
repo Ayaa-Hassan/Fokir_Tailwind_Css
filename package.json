@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "daisyui": "^4.12.10",
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "preline": "^2.3.0"
+  }
+}

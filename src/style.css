@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700');
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #333;
+}
+.container{
+    width: 80% !important;
+    margin: auto;
+}
+
+
+
+#home h4::after {
+    content: "|";
+    animation: dev 8s infinite;
+    font-weight: 300;
+    padding-left: 8px;
+}
+
+@keyframes dev {
+    1% {
+   content: "D";
+    }
+
+    2% {
+        content: "De";
+    }
+
+    3% {
+        content: "Dev";
+    }
+
+    4% {
+        content: "Deve";
+    }
+
+    5% {
+        content: "Devel";
+    }
+
+    6% {
+        content: "Develo";
+    }
+
+    7% {
+        content: "Develop";
+    }
+
+    8% {
+        content: "Develope";
+    }
+
+    9% {
+        content: "Developer";
+    }
+
+    25% {
+        content: "Developer";
+    }
+
+    26% {
+        content: "Develope";
+    }
+
+    27% {
+        content: "Develop";
+    }
+
+    28% {
+        content: "Develo";
+    }
+
+    29% {
+        content: "Devel";
+    }
+
+    30% {
+        content: "Deve";
+    }
+
+    31% {
+        content: "Dev";
+    }
+
+    32% {
+        content: "De";
+    }
+
+    33% {
+        content: "D";
+    }
+
+    34% {
+        content: "|";
+    }
+
+    37% {
+        content: "D";
+    }
+
+    36% {
+        content: "De";
+    }
+
+    37% {
+        content: "Des";
+    }
+
+    38% {
+        content: "Desi";
+    }
+
+    39% {
+        content: "Desig";
+    }
+
+    40% {
+        content: "Design";
+    }
+
+    41% {
+        content: "Designe";
+    }
+
+    42% {
+        content: "Designer";
+    }
+
+    59% {
+        content: "Designer";
+    }
+
+    60% {
+        content: "Designe";
+    }
+
+    61% {
+        content: "Design";
+    }
+
+    62% {
+        content: "Desig";
+    }
+
+    63% {
+        content: "Desi";
+    }
+
+    64% {
+        content: "Des";
+    }
+
+    65% {
+        content: "De";
+    }
+
+    66% {
+        content: "D";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "D";
+    }
+
+    69% {
+        content: "De";
+    }
+
+    70% {
+        content: "Des";
+    }
+
+    71% {
+        content: "Des";
+    }
+
+    72% {
+        content: "Desi";
+    }
+
+    73% {
+        content: "Desig";
+    }
+
+    74% {
+        content: "Design";
+    }
+
+    75% {
+        content: "Designe";
+    }
+
+    76% {
+        content: "Designer";
+    }
+
+    92% {
+        content: "Designer";
+    }
+
+    93% {
+        content: "Designe";
+    }
+
+    94% {
+        content: "Design";
+    }
+
+    95% {
+        content: "Desig";
+    }
+
+    96% {
+        content: "Desi";
+    }
+
+    97% {
+        content: "Des";
+    }
+
+    98% {
+        content: "De";
+    }
+
+    99% {
+        content: "D";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+
+
+header nav .nav-menu .nav-ico  .list-ico{
+    visibility: hidden;
+    transition: all 3s ;
+
+}
+header nav .nav-menu .nav-ico .ico:hover +.list-ico{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.porfile-photo:hover .porfile-overly {
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.porfile-overly {
+    background: rgba(0, 0, 0, 0.57) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.profile-desc h2:after {
+    background: #ff305b none repeat scroll 0 0;
+    content: "";
+    height: 110%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+.profile-about ul li:nth-child(2n+1) {
+    float: left;
+    width: 40%;
+}
+
+.profile-about ul li:nth-child(2n) {
+    float: left;
+    width: 60%;
+}
+
+
+.section-title h2:before {
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.section-title h2:after,
+.section-title h2:before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+
+.section-title h2:after {
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+.single-service:hover .single-service-inner i {
+    transform: scale(1.2);
+}
+
+.single-service:hover .single-service-inner {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+
+
+.portfolio a:after {
+    background: #000000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+     position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+     transition: all 0.4s ease 0s;
+}
+
+.portfolio a:hover:after {
+    opacity: .5;
+     visibility: visible;
+}
+
+.portfolio-view {
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    visibility: hidden;
+    opacity: 0;
+    }
+
+.portfolio a:hover .portfolio-view {
+    visibility: visible;
+    opacity: 1;
+     z-index: 1;
+}
+
+.testimonel-item:after {
+    border-color: #ff305b rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: solid;
+    border-width: 191px;
+    content: "";
+    height: 72px;
+    left: -199px;
+    position: absolute;
+    top: 0;
+    transform: translateX(0%);
+    width: 77px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*?----------------{Responsive css}------------------ */
+@media (max-width: 767px) {
+
+    .profile-about ul li:nth-child(2n+1) {
+        width: 100%;
+    }
+
+    .download-cv-btn>a {
+        padding: 8px 10px;
+        margin-top: 10px;
+    }
+
+    .about-img {
+        margin-left: 30%;
+    }
+
+    .about-content {
+        margin-left: 30%;
+    }
+
+    .single-service {
+        width: 100%;
+    }
+    .single-service-inner {
+        width: 80%;
+        margin: auto;
+        padding:35px 25px ;
+    }
+    .single-service-inner>h3 {
+        font-size: 22px;
+    }
+    .testimonel-cont {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+        .footer-area {
+            padding: 35px 0;
+        }
+                
+}
